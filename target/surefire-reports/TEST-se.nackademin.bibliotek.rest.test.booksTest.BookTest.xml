@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="se.nackademin.bibliotek.rest.test.booksTest.BookTest" time="2.015" tests="1" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-oracle/jre/lib/i386"/>
+    <property name="java.vm.version" value="25.121-b13"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="/home/testautom-nack/git/bibliotek-rest-test"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) Client VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="test" value="se.nackademin.bibliotek.rest.test.booksTest.BookTest#testUpdateBookStatus200"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/home/testautom-nack/git/bibliotek-rest-test"/>
+    <property name="java.runtime.version" value="1.8.0_121-b13"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/usr/lib/jvm/java-8-oracle/jre/lib/endorsed"/>
+    <property name="os.arch" value="i386"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Linux"/>
+    <property name="maven.ext.class.path" value="/home/testautom-nack/netbeans-8.2/java/maven-nblib/netbeans-eventspy.jar"/>
+    <property name="classworlds.conf" value="/usr/share/maven/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/lib/jvm/java-8-oracle/jre/lib/amd64:/usr/lib/jvm/java-8-oracle/jre/lib/i386::/usr/java/packages/lib/i386:/lib:/usr/lib"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot Client Compiler"/>
+    <property name="os.version" value="4.4.0-75-generic"/>
+    <property name="user.home" value="/home/testautom-nack"/>
+    <property name="user.timezone" value="Europe/Stockholm"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="testautom-nack"/>
+    <property name="java.class.path" value="/usr/share/maven/boot/plexus-classworlds-2.x.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="32"/>
+    <property name="java.home" value="/usr/lib/jvm/java-8-oracle/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -Dtest=se.nackademin.bibliotek.rest.test.booksTest.BookTest#testUpdateBookStatus200 -Dmaven.ext.class.path=/home/testautom-nack/netbeans-8.2/java/maven-nblib/netbeans-eventspy.jar surefire:test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_121"/>
+    <property name="java.ext.dirs" value="/usr/lib/jvm/java-8-oracle/jre/lib/ext:/usr/java/packages/lib/ext"/>
+    <property name="securerandom.source" value="file:/dev/./urandom"/>
+    <property name="sun.boot.class.path" value="/usr/lib/jvm/java-8-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-8-oracle/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/usr/share/maven"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="gnome"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase name="testUpdateBookStatus200" classname="se.nackademin.bibliotek.rest.test.booksTest.BookTest" time="2.015">
+    <failure message="Status code should be 200 expected:&lt;200&gt; but was:&lt;400&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Status code should be 200 expected:<200> but was:<400>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at se.nackademin.bibliotek.rest.test.booksTest.BookTest.testUpdateBookStatus200(BookTest.java:61)
+]]></failure>
+    <system-out><![CDATA[HTTP/1.1 200 OK
+Server: Apache-Coyote/1.1
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Fri, 28 Apr 2017 14:12:53 GMT
+
+{
+    "book": {
+        "author": [
+            {
+                "id": 2,
+                "name": "Neil Gaiman"
+            },
+            {
+                "id": 3,
+                "name": "Terry Pratchett"
+            }
+        ],
+        "description": "It is the coming of the End Times: the Apocalypse is near, and Final Judgement will soon descend upon the human species. This comes as a bit of bad news to the angel Aziraphale (who was the guardian of the Eastern Gate of Eden) and the demon Crowley (who, when he was originally named Crawly, was the serpent who tempted Eve to eat the apple), respectively the representatives of Heaven and Hell on Earth, as they have become used to living their cozy, comfortable lives and have, in a perverse way, taken a liking to humanity.",
+        "id": 2,
+        "isbn": "0-575-04800-X",
+        "nbOfPage": 288,
+        "title": "Good Omens"
+    }
+}
+Request method:	PUT
+Request path:	http://localhost:8080/librarytest/rest/books
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Body:
+{
+    "book": {
+        "author": [
+            {
+                "name": "Neil Gaiman",
+                "id": 2.0
+            },
+            {
+                "name": "Terry Pratchett",
+                "id": 3.0
+            }
+        ],
+        "id": 2,
+        "description": "It is the coming of the End Times: the Apocalypse is near, and Final Judgement will soon descend upon the human species. This comes as a bit of bad news to the angel Aziraphale (who was the guardian of the Eastern Gate of Eden) and the demon Crowley (who, when he was originally named Crawly, was the serpent who tempted Eve to eat the apple), respectively the representatives of Heaven and Hell on Earth, as they have become used to living their cozy, comfortable lives and have, in a perverse way, taken a liking to humanity.",
+        "nbOfPage": 288,
+        "title": "TestTest",
+        "isbn": "0-575-04800-X"
+    }
+}
+HTTP/1.1 400 Bad Request
+Server: Apache-Coyote/1.1
+Content-Type: text/html
+Content-Length: 46
+Date: Fri, 28 Apr 2017 14:12:53 GMT
+Connection: close
+
+<html>
+  <body>Book contained an author with no id field set.</body>
+</html>
+]]></system-out>
+  </testcase>
+</testsuite>

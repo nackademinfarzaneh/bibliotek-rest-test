@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: se.nackademin.bibliotek.rest.test.booksTest.BookTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 2.174 sec <<< FAILURE! - in se.nackademin.bibliotek.rest.test.booksTest.BookTest
+testUpdateBookStatus200(se.nackademin.bibliotek.rest.test.booksTest.BookTest)  Time elapsed: 2.015 sec  <<< FAILURE!
+java.lang.AssertionError: Status code should be 200 expected:<200> but was:<400>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at se.nackademin.bibliotek.rest.test.booksTest.BookTest.testUpdateBookStatus200(BookTest.java:61)
+
