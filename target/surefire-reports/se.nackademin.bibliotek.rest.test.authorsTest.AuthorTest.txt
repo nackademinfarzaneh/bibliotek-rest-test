@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: se.nackademin.bibliotek.rest.test.authorsTest.AuthorTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 1.886 sec <<< FAILURE! - in se.nackademin.bibliotek.rest.test.authorsTest.AuthorTest
+testPostCreateNewAuthor(se.nackademin.bibliotek.rest.test.authorsTest.AuthorTest)  Time elapsed: 1.751 sec  <<< FAILURE!
+java.lang.AssertionError: Return 201 = Created expected:<201> but was:<400>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at se.nackademin.bibliotek.rest.test.authorsTest.AuthorTest.testPostCreateNewAuthor(AuthorTest.java:36)
+

@@ -15,19 +15,26 @@ public final class Book {
     private Integer id;
     private String description;
     private Integer nbOfPage;
-    private String title;
+    private String title;   
     private String isbn;
+    
+    private Book book;
 
-    public Book(String description, String title, String bn, Integer nbOfPage) {
-        this.setDescription(description);
-        this.setTitle(title);
-        this.setIsbn(isbn);
-        this.setNbOfPage(nbOfPage);
+    public Book(Author author, Book book) {
+         
+         this.author = author;
+          this.book = book;   
+    }
+    
+    public Book(){
+        
     }
 
-    public Book() {
-
+    public Book(Author author) {
+        this.author = author;
     }
+
+
 
     public Integer getId() {
         return id;
@@ -64,7 +71,7 @@ public final class Book {
     /**
      * @param nbOfPage the nbOfPage to set
      */
-    private void setNbOfPage(Integer nbOfPage) {
+    public void setNbOfPage(Integer nbOfPage) {
         this.nbOfPage = nbOfPage;
     }
 
@@ -108,5 +115,19 @@ public final class Book {
      */
     public void setAuthor(Object author) {
         this.author = author;
+    }
+
+    /**
+     * @return the book
+     */
+    public Book getBook() {
+        return book;
+    }
+
+    /**
+     * @param book the book to set
+     */
+    public void setBook(Book book) {
+        this.book = book;
     }
 }
